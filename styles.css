@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.pfp {
+    margin-top: 10px;
+    clip-path: circle();
+    width: 300;
+    height: 300;
+    border: 3px solid rgb(200, 100, 200);
+    border-spacing: 5px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+p {
+    color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(200, 100, 200);
+}
+
+h2 {
+    color: rgb(200, 100, 200);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.whoami {
+    text-align: center;
+}
+
+.github-logo {
+    height: 100px;
+    clip-path: circle();
+    overflow: hidden;   
+    display: inline-block;
+    border: 3px solid rgb(200, 100, 200);
+    border-spacing: 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-bottom: 1px;
+    text-align: justify;
+}
+
+.github-logo:hover {
+    transform: scale(1.05);
+}
