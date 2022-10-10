@@ -65,3 +65,16 @@ div.whoami {
 .github-logo:hover {
     transform: scale(1.05);
 }
+
+div.about-me {
+    text-align: center; 
+    word-wrap: break-word;
+}
+
+.not-a-rick-roll {
+    width: 150px;
+}
+
+.not-a-rick-roll:hover {
+    transform: scale(1.05);
+}
