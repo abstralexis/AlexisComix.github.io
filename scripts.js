@@ -1,4 +1,4 @@
 function rickRolledAlert() {
-    alert("get rickrolled nerd");
+    alert("Get ready for cookies !!!");
     return false;
 }
